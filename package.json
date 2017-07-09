@@ -1,0 +1,27 @@
+{
+  "name": "swt-social-engine",
+  "version": "0.0.1",
+  "description": "The social engine for SWT applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "standalone": "node index.js --standalone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmdantas/swt-social-engine.git"
+  },
+  "author": "Nicholas M. Dantas",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/nmdantas/swt-social-engine/issues"
+  },
+  "homepage": "https://github.com/nmdantas/swt-social-engine#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "swt-framework": "^0.2.0"
+  }
+}
